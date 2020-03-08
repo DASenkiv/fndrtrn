@@ -2,15 +2,17 @@ This is my project.
 
 ## Technology stack:
 **Frontend:**
-- Front office: React
-- Back office: Svelte
+- Front office: React + styled-components + TypeScript;
+- Back office: Svelte;
+- Store: Redux.
+
 
 **Backend:**
-- NodeJS
-- Python or C# & .NET Core
+- NodeJS;
+- Python or C# & .NET Core.
 
 **Proxy:**
-- nginx
+- nginx.
 
 **Database:**
-- to be announced
+- to be announced.
