@@ -6,13 +6,13 @@ import {Main} from "../main";
 import {Footer} from "../footer";
 
 export const Root = () => {
-    return (<>
+    return (<div className={'root'}>
             <Header/>
             <div className={'main'}>
                 <Aside/>
                <Main/>
             </div>
             <Footer/>
-        </>
+        </div>
     )
 }
