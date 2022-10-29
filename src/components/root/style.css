@@ -1,0 +1,24 @@
+.header {
+    /*position: sticky;*/
+    top: 0;
+}
+
+.search {
+    /*position: sticky;*/
+    width: 100%;
+    top: 44px;
+}
+
+.main {
+    display: flex;
+    gap: 15px;
+}
+
+.main_main {
+    border: 1px solid #000;
+    width: 900px;
+}
+.main_nav {
+    border: 1px solid #000;
+    width: 200px;
+}
