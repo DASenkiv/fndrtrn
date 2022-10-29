@@ -8,7 +8,6 @@ This is my project.
 
 **Backend:**
 - NodeJS;
-- Python or C# & .NET Core.
 
 **Proxy:**
 - nginx.
