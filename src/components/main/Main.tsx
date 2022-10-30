@@ -7,11 +7,13 @@ import {Items} from "../items";
 import {Layout} from 'antd'
 
 
-export const Main:FC = () => {
-    return ( <Layout.Content>
-        <AboutProject/>
+type TMainPage = {
+    isRootLocation?: boolean
+}
+export const Main: FC<TMainPage> = ({isRootLocation}) => {
+    return (<Layout.Content>
+        {isRootLocation && <AboutProject/>}
         <Search/>
         <Items/>
-        <div>Main</div>
     </Layout.Content>)
 }
