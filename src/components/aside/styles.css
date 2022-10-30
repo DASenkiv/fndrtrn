@@ -1,5 +1,5 @@
 .aside {
-    width: 300px;
+    min-width: 300px;
     display: flex;
     gap: 15px;
     flex-direction: column;
