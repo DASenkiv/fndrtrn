@@ -2,8 +2,9 @@ import {Layout} from 'antd'
 import {Routes, Route} from "react-router-dom";
 
 import './style.css'
+import '../../App.css'
 
-import {CustomHeader} from "../header";
+import {Header} from "../header";
 import {Aside} from "../aside";
 import {Main} from "../main";
 import {Footer} from "../footer";
@@ -15,10 +16,10 @@ import {About} from "../about";
 
 
 export const Root: FC = () => {
-    return (<Layout>
-            <CustomHeader/>
-            <div className={'main'}>
-                <Aside/>
+    return (<div className={'root'}>
+            <Header/>
+            <div className={'main app_container'}>
+                {/*<Aside/>*/}
                 <Routes>
                     <Route path={'/posts'} element={<Main/>}/>
                     <Route path={'/about'} element={<About/>}/>
@@ -27,6 +28,6 @@ export const Root: FC = () => {
                 {/*<Main/>*/}
             </div>
             <Footer/>
-        </Layout>
+        </div>
     )
 }

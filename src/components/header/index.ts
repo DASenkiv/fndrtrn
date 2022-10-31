@@ -1,1 +1,1 @@
-export {CustomHeader} from './CustomHeader'
+export {Header} from './Header'

@@ -1,6 +1,7 @@
 import {FC} from "react";
 import {DonateBlock} from "../donate-block";
 import {Link} from "react-router-dom";
+import {FuturePlans} from "../future-plans";
 
 
 export const AboutCommon = () => (
@@ -27,6 +28,8 @@ export const About: FC = () => {
             жизни проекта - делиться новыми идеями, помогать в поиске потерянных вещей и животных, вступить в ряды
             сознательных граждан. Мы рады приветствовать вас в команде.
         </div>
+        <hr/>
+        <FuturePlans/>
         <hr/>
         <h2>Контакты для связи</h2>
         <ul>

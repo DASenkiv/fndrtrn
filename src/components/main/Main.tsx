@@ -11,9 +11,9 @@ type TMainPage = {
     isRootLocation?: boolean
 }
 export const Main: FC<TMainPage> = ({isRootLocation}) => {
-    return (<Layout.Content>
+    return (<div>
         {isRootLocation && <AboutProject/>}
         <Search/>
         <Items/>
-    </Layout.Content>)
+    </div>)
 }
